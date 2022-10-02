@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie Clicker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" defer src="index.js"></script>
+</head>
+<body>
+    <header>
+    <h1>FEED THE DRAGON</h1>
+    </header>
+
+    <main class="main-container">
+        <div class="clicker-container">
+            <p>Feed Me By Clicking!</p>
+
+            <img
+                id="dragon"
+                src="https://ih1.redbubble.net/image.1238971970.3441/st,small,507x507-pad,600x600,f8f8f8.jpg"
+            />
+            <p>Number of Food:&nbsp;<span id="score">0</span></p>
+
+            <P>Clicks:&nbsp;<span id="resource-counter">0</span></p>
+            <div id="button">
+                <button id="start-counting">Start</button>
+                <button id="stop-counting">Stop</button>
+            </div>
+        </div>
+    </main>
+    <div id="dragon-feeder-options-mom">
+        <div id="feeder-selectors-mom"> 
+            <img style="width: 100px; height: 100 px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLCYPGDZeSvsMd22FDwlgJjMZHZ2qtwTUHpqCykV6nSE64mzzgIm5ZKB6jgQ8eP6uwuVw&usqp=CAU"/>
+            <p style="font-size: 16px; margin-top: 28px;">Cost of Mama Dragon's Food Supply: 50F</p>
+            <p style="font-size: 16px; margin-top: 28px;">--Gain: 5F/second</p>
+            <button style="height: 30px; margin-top: 28px;" id="mama-dragon-button">Buy</button>
+        </div>
+    </div>
+    <div id="dragon-feeder-options-dad">
+        <div id="feeder-selectors-dad"> 
+            <img style="width: 100px; height: 100 px;" src="https://i.pinimg.com/736x/6f/e9/6e/6fe96e9c66baad32006ff104e88b9266.jpg"/>
+            <p style="font-size: 16px; margin-top: 28px;">Cost of Daddy Dragon's Food Supply: 200F</p>
+            <p style="font-size: 16px; margin-top: 28px;">--Gain: 20F/second</p>
+            <button style="height: 30px; margin-top: 28px;" id="daddy-dragon-button">Buy</button>
+        </div>
+    </div>
+
+</body>
+</html>
